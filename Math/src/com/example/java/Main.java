@@ -4,25 +4,25 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int intvalue1 = 56;
+        int intValue1 = 56;
         int intValue2 = 42;
 
-        int result1 = intvalue1 + intValue2;
+        int result1 = intValue1 + intValue2;
         System.out.println("Addition: " + result1);
 
-        int result2 = intvalue1 - intValue2;
+        int result2 = intValue1 - intValue2;
         System.out.println("Subtraction: " + result2);
 
-        int result3 = intvalue1 * intValue2;
+        int result3 = intValue1 * intValue2;
         System.out.println("Multiplication: " + result3);
 
-        double result4 = (double) intvalue1 / intValue2;
+        double result4 = (double) intValue1 / intValue2;
         System.out.println("Division: " + result4);
 
-        double result5 = (double) intvalue1 % intValue2;
+        int result5 = intValue1 % intValue2;
         System.out.println("Remainder: " + result5);
 
-        double doubleValue = -3.99999;
+        double doubleValue = -3.99999d;
         long rounded = Math.round(doubleValue);
         System.out.println("Rounded: " + rounded);
 
